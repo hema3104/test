@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Registration Page</title>
+    <style type="text/css">
+        .style1 {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="post">
+        <div>
+            <table class="style1">
+                <tr>
+                    <td>Full Name:</td>
+                    <td>
+                        <input type="text" name="fullname" id="fullname" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Username:</td>
+                    <td>
+                        <input type="text" name="username" id="username" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td>
+                        <input type="password" name="password" id="password" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Re Password:</td>
+                    <td>
+                        <input type="password" name="repassword" id="repassword" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td>
+                        <input type="text" name="address" id="address">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Age:</td>
+                    <td>
+                        <input type="number" name="age" id="age" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <select name="gender" id="gender" required>
+                            <option value="-1">Select</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <input type="submit" value="Save">
+    </form>
+</body>
+</html>
